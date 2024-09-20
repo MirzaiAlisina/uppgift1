@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+header {
+  background-color:gold;
+  color:black;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#logo{
+  width: 8%;
+  position:absolute;
+  top: 0px;
+  right: 85%;
+
+}
+#logo:hover{
+  background-color:white;
+}
+
+footer {
+  background-color:gold;
+  color:black;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question {
+  background-color: gold;
+  color: black;
+  padding: 20px;
+  margin: 25px;
+  width: 500px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.question:hover {
+  background-color:darkgrey;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+}
+
+#image{
+  width: 40%;
+  height: 200px;
+  margin-left: 30%;
+  margin-top: 1%;
+  
+}
+
+.answer-box {
+  background-color: gold; /* Ljusgul färg */
+  padding: 20px;
+  margin: 50px auto;
+  width: 60%; /* Justera storleken på boxen */
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: black;
+}
+
+/* Justering av text */
+.answer-box p {
+  margin: 0;
+}
