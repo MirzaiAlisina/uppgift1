@@ -7,33 +7,52 @@ body {
   color: white;
 }
 
+
 header {
-  background-color:gold;
-  color:black;
+  background-color: gold;
+  color: black;
   padding: 10px 0;
   text-align: center;
 }
 
-#logo{
-  width: 8%;
-  position:absolute;
-  top: 0px;
-  right: 85%;
 
-}
-#logo:hover{
-  background-color:white;
+nav ul.menu {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
 }
 
+nav ul.menu li {
+  margin: 0 15px;
+}
+
+nav ul.menu li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+nav ul.menu li a:hover {
+  background-color: black;
+  color: gold;
+}
+
+/* Footer stil */
 footer {
-  background-color:gold;
-  color:black;
+  background-color: gold;
+  color: black;
   text-align: center;
   padding: 10px 0;
   position: fixed;
   width: 100%;
   bottom: 0;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -66,6 +85,14 @@ p {
   height: 200px;
   margin-left: 30%;
   margin-top: 1%;
+  
+}
+
+#image1{
+  width: 60%;
+  height: 300px;
+  margin-top: 5%;
+  margin-left: 20%;
   
 }
 
