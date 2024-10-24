@@ -7,6 +7,15 @@ body {
   color: white;
 }
 
+#body1 {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-image: url(images/background.jpg);
+  color: white;
+}
+
 
 header {
   background-color: gold;
